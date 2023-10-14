@@ -22,9 +22,9 @@
         Console.ReadKey();
     }
 
-    private static void LerArray(int[] array, int tamanhoDoVetor) 
+    private static void LerArray(int[] array, int tamanhoDoArray) 
     {
-        for(int i = 0; i < tamanhoDoVetor; i++) 
+        for(int i = 0; i < tamanhoDoArray; i++) 
         {
             Console.Write($"Digite o valor para o elemento {i + 1}: ");
             array[i] = int.Parse(Console.ReadLine());
