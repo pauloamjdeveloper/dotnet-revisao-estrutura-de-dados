@@ -38,8 +38,6 @@
 
     private static bool PesquisarNumeroNoArray(int[] array, int numero) 
     {
-        bool numeroEncontrado = false;
-
         for (int i = 0; i < array.Length; i++) 
         {
             if (array[i] == numero) 
