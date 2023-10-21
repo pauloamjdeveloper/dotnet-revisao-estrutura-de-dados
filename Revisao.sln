@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaLinear.Exercicio01", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaLinear.Exercicio02", "src\03-busca-linear-binaria\BuscaLinear.Exercicio02\BuscaLinear.Exercicio02.csproj", "{C25421C3-CCB4-4632-9189-1C2918A73575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaBinaria.Exercicio01", "src\03-busca-linear-binaria\BuscaBinaria.Exercicio01\BuscaBinaria.Exercicio01.csproj", "{BECB7CC6-3205-47AD-B116-9D0BE50766C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{C25421C3-CCB4-4632-9189-1C2918A73575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C25421C3-CCB4-4632-9189-1C2918A73575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C25421C3-CCB4-4632-9189-1C2918A73575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECB7CC6-3205-47AD-B116-9D0BE50766C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECB7CC6-3205-47AD-B116-9D0BE50766C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECB7CC6-3205-47AD-B116-9D0BE50766C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECB7CC6-3205-47AD-B116-9D0BE50766C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A067AAD1-28CB-4FDD-BCFC-9764DA7EB244} = {BA05F450-A612-4AEE-AD78-1DD57A761F61}
@@ -74,5 +80,6 @@ Global
 		{8FE0439F-CE5E-4E27-9045-1525C1348DBF} = {BA05F450-A612-4AEE-AD78-1DD57A761F61}
 		{9E95D5FC-B513-492A-B6C0-E8045B359438} = {8FE0439F-CE5E-4E27-9045-1525C1348DBF}
 		{C25421C3-CCB4-4632-9189-1C2918A73575} = {8FE0439F-CE5E-4E27-9045-1525C1348DBF}
+		{BECB7CC6-3205-47AD-B116-9D0BE50766C5} = {8FE0439F-CE5E-4E27-9045-1525C1348DBF}
 	EndGlobalSection
 EndGlobal
