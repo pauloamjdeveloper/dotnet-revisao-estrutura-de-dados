@@ -1,12 +1,12 @@
 ﻿internal class Program
 {
     /*
-     * Implemente o algoritmo de ordenação Bubble Sort para ordenar um array de números inteiros em ordem crescente.
+     * Implemente o algoritmo de ordenação Selection Sort para ordenar um array de números inteiros.
     */
-
+    
     private static void Main(string[] args)
     {
-        Console.WriteLine("***** Algoritmo de Ordenação Bubble Sort *****");
+        Console.WriteLine("***** Algoritmo de Ordenação Selection Sort *****");
 
         Console.Write("Informe o tamanho do array: ");
         int tamanhoDoArray = int.Parse(Console.ReadLine());
@@ -14,7 +14,7 @@
         int[] array = new int[tamanhoDoArray];
         LerArray(array, tamanhoDoArray);
 
-        ExecutarBubbleSort(array);
+        ExecutarSelectionSort(array);
 
         Console.WriteLine("\n-------- Resultado --------");
         ImprimirArray(array);
@@ -31,30 +31,24 @@
         }
     }
 
-    private static void ExecutarBubbleSort(int[] array) 
+    private static void ExecutarSelectionSort(int[] array) 
     {
         int numero = array.Length;
-        bool trocado;
 
-        for (int i = 0; i < numero - 1; i++) 
+        for(int i = 0; i < numero - 1; i++)
         {
-            trocado = false;
-
-            for (int j = 0; j < numero - i - 1; j++) 
+            int minIndex = i;
+            for (int j = i + 1; j < numero; j++) 
             {
-                if (array[j] > array[j + 1]) 
+                if (array[j] < array[minIndex]) 
                 {
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
-                    trocado = true;
+                    minIndex = j;
                 }
             }
 
-            if (!trocado) 
-            {
-                break;
-            }
+            int temp = array[i];
+            array[i] = array[minIndex];
+            array[minIndex] = temp;
         }
     }
 

@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-algoritmos-de-ordenacao"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmosOrdenacao.BubbleSort01", "src\04-algoritmos-de-ordenacao\AlgoritmosOrdenacao.BubbleSort01\AlgoritmosOrdenacao.BubbleSort01.csproj", "{2959A582-4386-48E1-8668-4B87D56F3277}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmosOrdenacao.SelectionSort01", "src\04-algoritmos-de-ordenacao\AlgoritmosOrdenacao.SelectionSort01\AlgoritmosOrdenacao.SelectionSort01.csproj", "{F85262F2-B1B1-48CF-8949-2B437CFA1E4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{2959A582-4386-48E1-8668-4B87D56F3277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2959A582-4386-48E1-8668-4B87D56F3277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2959A582-4386-48E1-8668-4B87D56F3277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85262F2-B1B1-48CF-8949-2B437CFA1E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85262F2-B1B1-48CF-8949-2B437CFA1E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85262F2-B1B1-48CF-8949-2B437CFA1E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85262F2-B1B1-48CF-8949-2B437CFA1E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A067AAD1-28CB-4FDD-BCFC-9764DA7EB244} = {BA05F450-A612-4AEE-AD78-1DD57A761F61}
@@ -98,5 +104,6 @@ Global
 		{01477149-F791-40E5-A50F-06B5009E2F0B} = {8FE0439F-CE5E-4E27-9045-1525C1348DBF}
 		{849D4ADB-9CBB-4F31-9076-438F14ADD3D6} = {BA05F450-A612-4AEE-AD78-1DD57A761F61}
 		{2959A582-4386-48E1-8668-4B87D56F3277} = {849D4ADB-9CBB-4F31-9076-438F14ADD3D6}
+		{F85262F2-B1B1-48CF-8949-2B437CFA1E4D} = {849D4ADB-9CBB-4F31-9076-438F14ADD3D6}
 	EndGlobalSection
 EndGlobal
