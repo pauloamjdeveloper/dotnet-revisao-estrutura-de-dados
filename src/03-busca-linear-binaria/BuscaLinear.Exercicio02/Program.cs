@@ -26,7 +26,7 @@
         Console.ReadKey();
     }
 
-    private static void LerArray (int[] array, int tamanhoDoArray) 
+    private static void LerArray(int[] array, int tamanhoDoArray) 
     {
         for (int i = 0; i < tamanhoDoArray; i++)
         {
