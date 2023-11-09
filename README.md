@@ -2,7 +2,14 @@
 
 ## :computer: Projeto
 
-Repositório com aplicação `Console.application` criada para fins acadêmicos, o objetivo é fazer revisões sobre `Estrutura de Dados`.
+Repositório com aplicação `Console Application` criada para fins acadêmicos, o objetivo é fazer revisões sobre `Estrutura de Dados`.
+
+## :page_facing_up: Estruturas Utilizadas
+
+- ``Arrays``
+- ``Matrizes``
+- ``Algoritmos de Busca:  Linear e Binária``
+- ``Algoritmos de Ordenação: Bubble Sort,  Selection Sort, Insertion Sort, Merge Sort``
 
 ## :heavy_check_mark: Recursos Utilizados
 
